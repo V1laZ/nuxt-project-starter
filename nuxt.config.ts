@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/eslint',
     '@primevue/nuxt-module',
+    '@nuxt/icon',
   ],
 
   devtools: { enabled: true },
