@@ -1,7 +1,5 @@
 <template>
   <div>
-    <div class="text-red-500">
-      asd
-    </div>
+    <NuxtWelcome />
   </div>
 </template>
