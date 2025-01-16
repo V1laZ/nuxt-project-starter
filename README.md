@@ -4,11 +4,21 @@ This template comes with preinstalled tools and packages to build and deploy you
 
 ## Prerequisites
 - [Bun](https://bun.sh/)
-
 ## Copy this template
 ```bash
 bun create V1laZ/nuxt-project-starter <project-name>
 ```
+
+## Recommended VS Code extensions
+I highly suggest **disabling Prettier**, as ESLint will handle the formatting instead.
+
+- [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Language support for Vue
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint into VS Code
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - Tailwind CSS tooling for VS Code
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) - View a Git Graph of your repository and perform Git actions from graph
+- [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=YoavBls.pretty-ts-errors) - Makes typescript errors more human-readable
+- [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) - Manage PRs and do code reviews inside VS Code
+- [Dependi](https://marketplace.visualstudio.com/items?itemName=fill-labs.dependi) - Efficiently manage dependencies
 
 ## Features
 
@@ -34,3 +44,9 @@ The **default** behavior is set for a manual switch. You can do so by doing `doc
 
 You can use any dataset from [Icônes](https://icones.js.org/). Be sure to download it with `npm i -D @iconify-json/collection-name` to improve your end-user experience. By default this template comes with the [svg-spinners dataset](https://icones.js.org/collection/svg-spinners).
 
+### GitHub Workflows
+This template comes with 2 preconfigured workflows for GitHub:
+- **Typecheck** - checks for typescript errors
+- **Lint Check** - checks for lint errors based on the ESLint config
+
+They are set to run on every **Pull Request**
