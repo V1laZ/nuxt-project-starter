@@ -45,7 +45,7 @@ The **default** behavior is set for a manual switch. You can do so by doing `doc
 You can use any dataset from [Icônes](https://icones.js.org/). Be sure to download it with `npm i -D @iconify-json/collection-name` to improve your end-user experience. By default this template comes with the [svg-spinners dataset](https://icones.js.org/collection/svg-spinners).
 
 ### GitHub Workflows
-This template comes with 2 preconfigured workflows for GitHub:
+This template comes with 2 preconfigured [workflows](./.github/workflows/) for **GitHub**:
 - **Typecheck** - checks for typescript errors
 - **Lint Check** - checks for lint errors based on the ESLint config
 
