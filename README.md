@@ -53,3 +53,6 @@ They are set to run on every **Pull Request**
 
 ### Nuxt Security
 [Nuxt Security](https://github.com/nuxt-modules/security) automatically configures your app to follow **OWASP security patterns** and principles.
+
+### Nuxt Image
+[Nuxt Image](https://github.com/nuxt/image) is plug-and-play image optimization for Nuxt apps. Resize and transform your images using built-in optimizer or your favorite images CDN.

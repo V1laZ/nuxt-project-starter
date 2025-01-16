@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@primevue/nuxt-module',
     '@nuxt/icon',
     'nuxt-security',
+    '@nuxt/image',
   ],
 
   devtools: { enabled: true },
