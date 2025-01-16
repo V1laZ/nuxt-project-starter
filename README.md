@@ -3,11 +3,24 @@
 This template comes with preinstalled tools and packages to build and deploy your **MVP** fast and reliably.
 
 ## Prerequisites
-- [Bun](https://bun.sh/)
+- [pnpm](https://pnpm.io/)
+
 ## Copy this template
-```bash
-bun create V1laZ/nuxt-project-starter <project-name>
+### Using npx
+```sh
+npx create-nuxt-starter <project-name>
 ```
+### Manual
+```sh
+git clone git@github.com:V1laZ/nuxt-project-starter.git
+cd nuxt-project-starter
+rm -rf .git
+git init
+git add .
+git commit -m "init"
+pnpm install
+```
+Feel free to rename the folder
 
 ## Recommended VS Code extensions
 I highly suggest **disabling Prettier**, as ESLint will handle the formatting instead.
