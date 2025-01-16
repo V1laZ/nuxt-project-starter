@@ -1,75 +1,36 @@
-# Nuxt Minimal Starter
+# Nuxt Starter Template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This template comes with preinstalled tools and packages to build and deploy your **MVP** fast and reliably.
 
-## Setup
+## Prerequisites
+- [Bun](https://bun.sh/)
 
-Make sure to install dependencies:
-
+## Copy this template
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+bun create V1laZ/nuxt-project-starter <project-name>
 ```
 
-## Development Server
+## Features
 
-Start the development server on `http://localhost:3000`:
+### Tailwind
+[Tailwind](https://tailwindcss.com/) is a **utility-first CSS framework** packed with classes like *flex*, *pt-4*, *text-center* and *rotate-90* that can be composed to build any design, directly in your markup.
 
-```bash
-# npm
-npm run dev
+### ESLint
+[ESLint](https://eslint.org/) statically **analyzes your code** to quickly find **problems**. 
 
-# pnpm
-pnpm dev
+This template comes with **preinstalled plugins** for 
+[Nuxt](https://eslint.nuxt.com/packages/module) and [Tailwind](https://github.com/francoismassart/eslint-plugin-tailwindcss). You can customize them in [eslint.config.mjs](./eslint.config.mjs)
 
-# yarn
-yarn dev
+### PrimeVue
+[PrimeVue](https://primevue.org/) is a **modular component library** built for Vue.
 
-# bun
-bun run dev
-```
+This template ensures that it works **nicely with** **Tailwind** without interfering with each other.
 
-## Production
+#### Dark Mode
+The **default** behavior is set for a manual switch. You can do so by doing `document.documentElement.classList.toggle('dark')`. Read more in [Tailwind docs](https://tailwindcss.com/docs/dark-mode) and [PrimeVue docs](https://primevue.org/theming/styled/#darkmode) on how to handle dark mode.
 
-Build the application for production:
+### Nuxt Icon
+[Nuxt Icon](https://github.com/nuxt/icon) allows you to use **200,000+** ready to use icons in your application. 
 
-```bash
-# npm
-npm run build
+You can use any dataset from [Icônes](https://icones.js.org/). Be sure to download it with `npm i -D @iconify-json/collection-name` to improve your end-user experience. By default this template comes with the [svg-spinners dataset](https://icones.js.org/collection/svg-spinners).
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
