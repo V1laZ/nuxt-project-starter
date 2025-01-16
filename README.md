@@ -51,5 +51,5 @@ This template comes with 2 preconfigured workflows for GitHub:
 
 They are set to run on every **Pull Request**
 
-## Nuxt Security
+### Nuxt Security
 [Nuxt Security](https://github.com/nuxt-modules/security) automatically configures your app to follow **OWASP security patterns** and principles.
