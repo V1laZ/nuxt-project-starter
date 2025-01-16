@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@primevue/nuxt-module',
     '@nuxt/icon',
+    'nuxt-security',
   ],
 
   devtools: { enabled: true },
