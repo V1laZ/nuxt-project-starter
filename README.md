@@ -80,4 +80,4 @@ npx nuxthub deploy
 🚀 That's it! Your page is now live and accessible to everyone.
 
 ### 🗃️ Drizzle ORM
-[Drizzle](https://orm.drizzle.team/) allows you to create **fast**, **performant** and **typesafe** SQL queries. Learn how to integrate it with NuxtHub in the [official documentation](https://hub.nuxt.com/docs/features/database).
+[Drizzle](https://orm.drizzle.team/) allows you to create **fast**, **performant** and **typesafe** SQL queries. Learn how to integrate it with NuxtHub in the [official documentation](https://hub.nuxt.com/docs/recipes/drizzle).
