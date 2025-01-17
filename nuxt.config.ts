@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     'nuxt-security',
     '@nuxt/image',
     '@nuxthub/core',
+    '@vueuse/nuxt',
   ],
 
   devtools: { enabled: true },

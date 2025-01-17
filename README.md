@@ -81,3 +81,13 @@ npx nuxthub deploy
 
 ### 🗃️ Drizzle ORM
 [Drizzle](https://orm.drizzle.team/) allows you to create **fast**, **performant** and **typesafe** SQL queries. Learn how to integrate it with NuxtHub in the [official documentation](https://hub.nuxt.com/docs/recipes/drizzle).
+
+### 🛠️ VueUse
+[VueUse](https://vueuse.org/) is a collection of **Essential Vue Composition Utilities**. 
+
+Packed with 200+ composables for:
+- 🔄 State Management
+- 📱 Sensors & Device APIs
+- 🎯 Animation & Motion
+- 💾 Browser Storage
+- ⚡ Performance & Timing
