@@ -11,12 +11,18 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxthub/core',
     '@vueuse/nuxt',
+    'nuxt-auth-utils',
   ],
 
   devtools: { enabled: true },
 
   routeRules: {
     '/api/_hub/**': {
+      security: {
+        enabled: false,
+      },
+    },
+    '/api/_auth/session': {
       security: {
         enabled: false,
       },

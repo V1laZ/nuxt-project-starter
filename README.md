@@ -104,6 +104,11 @@ They are set to run on every **Pull Request**
 
 ---
 
+### 🔐 Nuxt Auth Utils
+[Nuxt Auth Utils](https://github.com/atinux/nuxt-auth-utils) allows you to easily add authentication to Nuxt applications with secured & sealed cookies sessions.
+
+---
+
 ### 🖼️ Nuxt Image
 [Nuxt Image](https://image.nuxt.com/) is plug-and-play image optimization for Nuxt apps. Resize and transform your images using built-in optimizer or your favorite images CDN.
 
