@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     'nuxt-security',
     '@nuxt/image',
+    '@nuxthub/core',
   ],
 
   devtools: { enabled: true },
