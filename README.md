@@ -69,3 +69,15 @@ They are set to run on every **Pull Request**
 
 ### 🖼️ Nuxt Image
 [Nuxt Image](https://github.com/nuxt/image) is plug-and-play image optimization for Nuxt apps. Resize and transform your images using built-in optimizer or your favorite images CDN.
+
+### 🌍 Nuxt Hub
+[NuxtHub](https://hub.nuxt.com/) allows you to easily deploy your application worldwide for **free!** ✨
+
+You can deploy your project with just one command:
+```sh
+npx nuxthub deploy
+```
+🚀 That's it! Your page is now live and accessible to everyone.
+
+### 🗃️ Drizzle ORM
+[Drizzle](https://orm.drizzle.team/) allows you to create **fast**, **performant** and **typesafe** SQL queries. Learn how to integrate it with NuxtHub in the [official documentation](https://hub.nuxt.com/docs/features/database).
