@@ -15,6 +15,14 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  routeRules: {
+    '/api/_hub/**': {
+      security: {
+        enabled: false,
+      },
+    },
+  },
+
   compatibilityDate: '2024-11-01',
 
   eslint: {
