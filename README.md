@@ -37,7 +37,8 @@ npx nuxthub deploy
 ```
 
 ## 💻 Recommended VS Code extensions
-⚠️ I highly suggest **disabling Prettier**, as ESLint will handle the formatting instead.
+> [!IMPORTANT]
+I highly suggest **disabling Prettier**, as ESLint will handle the formatting instead.
 
 - [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Language support for Vue
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint into VS Code
