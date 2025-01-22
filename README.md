@@ -129,3 +129,8 @@ Packed with 200+ composables for:
 - 🎯 Animation & Motion
 - 💾 Browser Storage
 - ⚡ Performance & Timing
+
+---
+
+### 🔍 Zod
+[Zod](https://zod.dev/) - TypeScript-first schema validation with static type inference
