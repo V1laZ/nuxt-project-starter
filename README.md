@@ -87,7 +87,7 @@ The **default** behavior is set for a manual switch. You can do so by doing `doc
 ### 🎯 Nuxt Icon
 [Nuxt Icon](https://github.com/nuxt/icon) allows you to use **200,000+** ready to use icons in your application. 
 
-You can use any dataset from [Icônes](https://icones.js.org/). Be sure to download it with `npm i -D @iconify-json/collection-name` to improve your end-user experience. By default this template comes with the [svg-spinners dataset](https://icones.js.org/collection/svg-spinners).
+You can use any dataset from [Icônes](https://icones.js.org/). Be sure to download it with `npm i -D @iconify-json/collection-name` to improve your end-user experience. By default this template comes with [svg-spinners](https://icones.js.org/collection/svg-spinners) and [Phosphor](https://icones.js.org/collection/ph) datasets.
 
 ---
 

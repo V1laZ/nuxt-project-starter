@@ -66,6 +66,9 @@ importers:
         specifier: 3.24.2
         version: 3.24.2
     devDependencies:
+      '@iconify-json/ph':
+        specifier: ^1.2.2
+        version: 1.2.2
       '@iconify-json/svg-spinners':
         specifier: 1.2.2
         version: 1.2.2
@@ -979,6 +982,9 @@ packages:
   '@humanwhocodes/retry@0.4.2':
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
+
+  '@iconify-json/ph@1.2.2':
+    resolution: {integrity: sha512-PgkEZNtqa8hBGjHXQa4pMwZa93hmfu8FUSjs/nv4oUU6yLsgv+gh9nu28Kqi8Fz9CCVu4hj1MZs9/60J57IzFw==}
 
   '@iconify-json/svg-spinners@1.2.2':
     resolution: {integrity: sha512-DIErwfBWWzLfmAG2oQnbUOSqZhDxlXvr8941itMCrxQoMB0Hiv8Ww6Bln/zIgxwjDvSem2dKJtap+yKKwsB/2A==}
@@ -6068,6 +6074,10 @@ snapshots:
   '@humanwhocodes/retry@0.3.1': {}
 
   '@humanwhocodes/retry@0.4.2': {}
+
+  '@iconify-json/ph@1.2.2':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify-json/svg-spinners@1.2.2':
     dependencies:
